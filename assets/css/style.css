@@ -113,12 +113,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
 	background: url(../img/akash_cover.jpg) no-repeat center top;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
+	/*background-size: contain;*/
 	min-height: 650px;
 	width: 100%;
 	
@@ -240,4 +241,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+
+/* container */
+
+.container {
+	margin-bottom:-50px;
 }
